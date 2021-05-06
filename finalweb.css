@@ -1,0 +1,384 @@
+/* nav bar */
+.nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 75px;
+	background: #839075;
+	overflow: hidden;
+}
+
+.login {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+	margin-top: 30px; 
+	margin-left: 1170px;
+	text-decoration: underline;
+}
+
+.navbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 1250px;
+	margin-top: 21px;
+	display: block;
+	border: none;
+	background-color: #F2D986;
+	width: 120px;
+	line-height: 25px;
+	padding: 7px 0 7px 0;
+	text-decoration: none;
+}
+
+.navbutton:hover {
+  background-color: #F08F5F;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+ .home {
+ 	position: absolute;
+	margin-left: 20px;
+	margin-top: 0px;
+	width: 190px;
+	height: 60px;
+	background-image: url("images/logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+ }
+
+
+
+
+
+
+/* image banner */
+.banner {
+	position: absolute;
+	left: 0px;
+	top: 75px;
+	width: 100%;
+	height: 100vh;
+	background-image: url("images/webbanner.png");
+	background-size: 102%;
+	background-repeat: no-repeat;
+}
+
+.startbutton {
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 235px;
+	margin-top: 325px;
+	display: block;
+	border: none;
+	background-color: #F08F5F;
+	width: 275px;
+	line-height: 25px;
+	padding: 22px 0 22px 0;
+	text-decoration: none;
+}
+
+.startbutton:hover {
+  background-color: #F2D986;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+
+
+/* location finder */
+.finder{
+	position: absolute;
+	left: 0px;
+	top: 575px;
+	width: 100%;
+	height: 100px;
+	background: #F2D986;
+}
+.findertitle {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+	left: 7%;
+	top: 0%; 
+}
+
+.or {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+	left: 1073px;
+	top: 24%; 
+}
+
+.seebutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 55%;
+	margin-top: 28px;
+	display: block;
+	border: none;
+	background: none;
+	border: solid 2px #87CAD4; 
+	width: 215px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.seebutton:hover {
+  background-color: #87CAD4;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.requestbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 80%;
+	margin-top: 28px;
+	display: block;
+	border: none;
+	background: none;
+	border: solid 2px #839075; 
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.requestbutton:hover {
+  background: #839075;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+
+
+/* in a box */
+.exbox{
+	position: absolute;
+	left: 0px;
+	top: 675px;
+	width: 100%;
+	height: 700px;
+	background: #F08F5F;
+}
+
+.boxtitle {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+	left: 38%;
+	top: 0%; 
+}
+
+.inbox{
+position: absolute;
+width: 100%;
+height: 500px;
+left: 80px;
+top: 17%;
+background-image: url("images/insidebox.png");
+background-size: 90%;
+background-repeat: no-repeat;
+}
+
+
+
+/* mission statement */
+.mission{
+	position: absolute;
+	left: 0px;
+	top: 1300px;
+	width: 100%;
+	height: 490px;
+	background: #87CAD4;
+}
+
+.missionpic{
+position: absolute;
+width: 50%;
+height: 490px;
+background-image: url("images/monkeys.png");
+background-size: 100%;
+background-repeat: none;
+}
+
+.ourmission{
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+	left: 68%;
+	top: 2%; 
+}
+
+.statement{
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: black;
+	width: 500px;
+	left: 58%;
+	top: 30%; 
+	right: 7%;
+}
+
+.seemorebutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 1025px;
+	margin-top: 375px;
+	display: block;
+	border: none;
+	background-color: #F08F5F;
+	width: 120px;
+	line-height: 25px;
+	padding: 7px 0 7px 0;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.seemorebutton:hover {
+  background-color: #F2D986;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+
+/* footer */
+.footer{
+	position: absolute;
+	left: 0px;
+	top: 1790px;
+	width: 100%;
+	height: 100px;
+	background: #839075;
+}
+
+.findbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.1px;
+	margin-left: 65%;
+	margin-top: 30px;
+	display: block;
+	border: solid 2px #87CAD4;
+	background-color: none;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.findbutton:hover {
+  background-color: #87CAD4;
+  border: solid 2px #87CAD4;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.contactbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.1px;
+	margin-left: 81%;
+	margin-top: 30px;
+	display: block;
+	border: solid 2px #F2D986;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.contactbutton:hover {
+  background-color: #F2D986;
+  border: solid 2px #F2D986;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

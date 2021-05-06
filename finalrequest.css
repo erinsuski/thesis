@@ -1,0 +1,521 @@
+
+.nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 75px;
+	background: #839075;
+	overflow: hidden;
+}
+
+.login {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+	margin-top: 30px; 
+	margin-left: 1170px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.navbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 1250px;
+	margin-top: 21px;
+	display: block;
+	border: none;
+	background-color: #F2D986;
+	width: 120px;
+	line-height: 25px;
+	padding: 7px 0 7px 0;
+	text-decoration: none;
+}
+
+.navbutton:hover {
+  background-color: #F08F5F;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+ .home {
+ 	position: absolute;
+	margin-left: 20px;
+	margin-top: 0px;
+	width: 190px;
+	height: 60px;
+	background-image: url("images/logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+ }
+
+
+.navbutton:hover {
+  background-color: #F08F5F;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+/* title banner */
+.banner {
+	position: absolute;
+	left: 0px;
+	top: 75px;
+	width: 100%;
+	height: 200px;
+	background: #87CAD4;
+}
+
+.wheretext {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 4em;
+	color: black;
+	left: 33%;
+	top: 1%; 
+}
+
+
+
+/* Map */
+.map {
+	position: absolute;
+	left: 50px;
+	top: 0px;
+	width: 50%;
+	height: 600px;
+	background-image: url("images/fakemap.png");
+	background-size: 150%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mapback{
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	width: 100%;
+	height: 600px;
+	background-color: #F08F5F;
+}
+
+
+.todaytitle{
+	position: absolute;
+	left: 1000px;
+	top: 15px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+}
+
+.column1 {
+	position: absolute;
+	left: 825px;
+	top: 150px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.column2 {
+	position: absolute;
+	left: 825px;
+	top: 280px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.column3 {
+	position: absolute;
+	left: 1090px;
+	top: 150px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.column4 {
+	position: absolute;
+	left: 1090px;
+	top: 280px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.seemorebutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 1010px;
+	margin-top: 450px;
+	display: block;
+	border: none;
+	background: none;
+	border: solid 2px #87CAD4; 
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.seemorebutton:hover {
+  background: #87CAD4;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+
+/* Where We're Going */
+.dates{
+	position: absolute;
+	left: 0px;
+	top: 800px;
+	width: 100%;
+	height: 650px;
+	background: #F2D986;
+}
+
+.datetitle {
+position: absolute;
+	left: 550px;
+	top: 45px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+}
+
+
+.left1 {
+	position: absolute;
+	left: 275px;
+	top: 150px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.left2 {
+	position: absolute;
+	left: 275px;
+	top: 275px;
+	width: 400px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.left3 {
+	position: absolute;
+	left: 275px;
+	top: 400px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.right1 {
+	position: absolute;
+	left: 800px;
+	top: 150px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.right2 {
+	position: absolute;
+	left: 800px;
+	top: 275px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.right3 {
+	position: absolute;
+	left: 800px;
+	top: 400px;
+	width: 400px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+}
+
+.seebutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 625px;
+	margin-top: 560px;
+	display: block;
+	border: none;
+	background: none;
+	border: solid 2px #839075; 
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.seebutton:hover {
+  background: #839075;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+/* Where Next */
+.next{
+	position: absolute;
+	left: 0px;
+	top: 1450px;
+	width: 100%;
+	height: 400px;
+	background: #87CAD4;
+}
+
+.nexttitle {
+position: absolute;
+	left: 500px;
+	top: 45px;
+	width: 500px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 300px; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: none; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 125px; /* Add a top margin */
+  margin-left: 30px; /* Bottom margin */
+  resize: vertical;
+  font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+	color: black;
+
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	margin-left: 345px;
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+}
+
+
+
+.submitbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 625px;
+	margin-top: 250px;
+	display: block;
+	border: solid 2px #F08F5F;
+	background-color: none;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.submitbutton:hover {
+  background-color: #F08F5F;
+  border: solid 2px #F08F5F;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+	position: absolute;
+	left: 0px;
+	top: 1790px;
+	width: 100%;
+	height: 100px;
+	background: #839075;
+}
+
+.findbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.1px;
+	margin-left: 65%;
+	margin-top: 30px;
+	display: block;
+	border: solid 2px #87CAD4;
+	background-color: none;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.findbutton:hover {
+  background-color: #87CAD4;
+  border: solid 2px #87CAD4;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.contactbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.1px;
+	margin-left: 81%;
+	margin-top: 30px;
+	display: block;
+	border: solid 2px #F2D986;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.contactbutton:hover {
+  background-color: #F2D986;
+  border: solid 2px #F2D986;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

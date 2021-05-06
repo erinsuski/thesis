@@ -1,0 +1,363 @@
+
+.nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 75px;
+	background: #839075;
+	overflow: hidden;
+}
+
+.login {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+	margin-top: 30px; 
+	margin-left: 1170px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.navbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 1250px;
+	margin-top: 21px;
+	display: block;
+	border: none;
+	background-color: #F2D986;
+	width: 120px;
+	line-height: 25px;
+	padding: 7px 0 7px 0;
+	text-decoration: none;
+}
+
+.navbutton:hover {
+  background-color: #F08F5F;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+ .home {
+ 	position: absolute;
+	margin-left: 20px;
+	margin-top: 0px;
+	width: 190px;
+	height: 60px;
+	background-image: url("images/logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+ }
+
+
+/* title banner */
+.banner {
+	position: absolute;
+	left: 0px;
+	top: 75px;
+	width: 100%;
+	height: 200px;
+	background: #87CAD4;
+}
+
+.contact {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 4em;
+	color: black;
+	left: 17%;
+	top: 1%; 
+}
+
+
+
+/* form */
+.background{
+	position: absolute;
+	left: 0px;
+	top: 275px;
+	width: 100%;
+	height: 600px;
+	background-color: #F2D986;
+}
+
+
+
+/* leave a message */
+.messagetitle{
+	position: absolute;
+	left: 210px;
+	top: 15px;
+	width: 500px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text1], select, textarea {
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+	color: black;
+  width: 500px; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+	color: black;
+	position: absolute;
+	width: 500px;
+	margin-top: 120px;
+	margin-left: 80px;
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+}
+
+.submitbutton1 {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 250px;
+	margin-top: 500px;
+	display: block;
+	border: solid 2px #F08F5F;
+	background-color: none;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.submitbutton1:hover {
+  background-color: #F08F5F;
+  border: solid 2px #F08F5F;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* request a stop */
+
+.stoptitle{
+	position: absolute;
+	left: 950px;
+	top: 15px;
+	width: 500px;
+	height: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	color: black;
+}
+
+
+input[type=text2], select, textarea {
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+	color: black;
+  width: 500px; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+	color: black;
+	position: absolute;
+	width: 500px;
+	margin-top: 120px;
+	margin-left: 800px;
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+}
+
+.submitbutton2 {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 990px;
+	margin-top: 500px;
+	display: block;
+	border: solid 2px #F08F5F;
+	background-color: none;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.submitbutton2:hover {
+  background-color: #F08F5F;
+  border: solid 2px #F08F5F;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+/* line */
+.line {
+	position: absolute;
+  border-left: 6px solid;
+  border-color: #F08F5F;
+  height: 500px;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+
+
+
+/* footer */
+.footer{
+	position: absolute;
+	left: 0px;
+	top: 875px;
+	width: 100%;
+	height: 100px;
+	background: #839075;
+}
+
+.newsbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.1px;
+	margin-left: 65%;
+	margin-top: 30px;
+	display: block;
+	border: solid 2px #87CAD4;
+	background-color: none;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.newsbutton:hover {
+  background-color: #87CAD4;
+  border: solid 2px #87CAD4;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.contactbutton {
+	position: absolute;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.1px;
+	margin-left: 81%;
+	margin-top: 30px;
+	display: block;
+	border: solid 2px #F2D986;
+	width: 175px;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+	text-decoration: none;
+}
+
+.contactbutton:hover {
+  background-color: #F2D986;
+  border: solid 2px #F2D986;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
